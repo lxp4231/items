@@ -65,7 +65,7 @@ $(function() {
             if (res.status !== 0) return layer.msg(res.message);
             layer.msg('登录成功');
             // 登录成功后把Token值存到本地
-            localStorage.setItem('Token', res.token)
+            localStorage.setItem('token', res.token)
             location.assign('./index.html') //或者location.href = './index.html'
         })
     })
