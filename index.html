@@ -25,9 +25,9 @@
                         <span class="text-avatar">A</span> 个人中心
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">更换头像</a></dd>
-                        <dd><a href="">重置密码</a></dd>
+                        <dd><a href="../event/user/user_info.html" target="fm">基本资料</a></dd>
+                        <dd><a href="../event/user/user_avatar.htm" target="fm">更换头像</a></dd>
+                        <dd><a href="../event/user/user_avatar.htm" target="fm">重置密码</a></dd>
                     </dl>
                 </li>
                 <!-- <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
@@ -64,9 +64,9 @@
                     <li class="layui-nav-item">
                         <a href="javascript:;"><i class="layui-icon layui-icon-username" style="font-size:18px; color: #fff;"></i> 个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">基本资料</a></dd>
-                            <dd><a href="javascript:;">更换头像</a></dd>
-                            <dd><a href="javascript:;">重置密码</a></dd>
+                            <dd><a href="../event/user/user_info.html" target="fm">基本资料</a></dd>
+                            <dd><a href="../event/user/user_avatar.htm" target="fm">更换头像</a></dd>
+                            <dd><a href="../event/user/user_psw.html" target="fm">重置密码</a></dd>
                         </dl>
                     </li>
                 </ul>
@@ -74,8 +74,8 @@
         </div>
 
         <div class="layui-body">
-            <!-- 内容主体区域//////// -->
-            <iframe name="fm" src="../event/home/dashboard.html" frameborder="0"></iframe>
+            <!-- 内容主体区域(跨域问题)//////// -->
+            <iframe name="fm" src="./home/dashboard.html" frameborder="0"></iframe>
         </div>
 
         <div class="layui-footer">
@@ -84,11 +84,11 @@
         </div>
     </div>
     <!-- 导入layui.js -->
-    <script src="assets/lib/layui/layui.all.js"></script>
-    <script src="assets/lib/jquery.js"></script>
+    <script src="../event/assets/lib/layui/layui.all.js"></script>
+    <script src="../event/assets/lib/jquery.js"></script>
     <!--baseAPI在 index.js之前 -->
-    <script src="assets/js/baseAPI.js"></script>
-    <script src="assets/js/index.js"></script>
+    <script src="../event/assets/js/baseAPI.js"></script>
+    <script src="../event/assets/js/index.js"></script>
 </body>
 
 </html>
