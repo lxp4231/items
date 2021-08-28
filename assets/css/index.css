@@ -1,6 +1,6 @@
 .layui-footer {
     text-align: center;
-    font-size: 12px
+    font-size: 12px;
 }
 
 iframe {
@@ -13,7 +13,7 @@ iframe {
 }
 
 a {
-    transition: none!important;
+    transition: none !important;
 }
 
 .text-avatar {

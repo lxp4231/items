@@ -1,0 +1,23 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eef0f2;
+  padding: 15px;
+}
+
+.layui-form {
+  width: 500px;
+}
+
+.layui-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.layui-form {
+  width: 540px;
+}
